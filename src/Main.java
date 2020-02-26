@@ -24,14 +24,10 @@ public class Main {
 			if (move == 1) {
 				System.out.println("You chose to add water.");
 				flower1.getWater();
-				flower1.getSun();
-				flower1.isIfAlive();
 			}
 			else if(move == 2) {
 				System.out.println("You chose to kill all warms!");
 				flower1.getWorms();
-				flower1.getSun();
-				flower1.isIfAlive();
 
 			}else {
 				System.out.println("You chose to add fertlilzer");
