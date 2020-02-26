@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main (String[] args) {
-		System.out.println("dsfsdfd");
 		Flower flower1 = new Flower();
 		System.out.println(flower1);
 		System.out.println("You lose water and fertilizer everyday! (If sun is more then 2 you lose even 2 pionts of water!");
