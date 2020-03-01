@@ -2,7 +2,7 @@
 public interface AddWater {
 	
 	default int addWater(int water) {
-		water = water+Parametry.ADD.getValue();
+		water = water+Parameters.ADD.getValue();
 		
 		return water;
 	}

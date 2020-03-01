@@ -13,7 +13,7 @@ public class Flower implements KillWorms, AddWater, AddFertilizer{
 		this.ifAlive = true;
 		this.water = (int)(Math.random()*4)+1;
 		this.sun = (int)(Math.random()*5)+0;
-		this.worms = (int)(Math.random()*1)+0;
+		this.worms = (int)(Math.random()*2)+0;
 		this.fertilizer = (int)(Math.random()*4)+1;
 	}
 
